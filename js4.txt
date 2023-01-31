@@ -1,0 +1,32 @@
+//Try and catch prevents errors from affecting other codes. e.g below
+
+// var a = 5;
+
+// try {
+//     console.log(b+1)
+// } catch (error) { //the error will be inside the error bracket
+//     console.log(error)
+// }
+// console.log("hello")
+
+// //another example
+
+// function calc(){
+//     try {
+        
+//     } catch (error) {
+        
+//     }
+
+// }
+
+
+// EVENTS
+
+function handleclick(){
+    alert("Hello world")
+}
+
+function handleinput(){
+    alert("Key information")
+}

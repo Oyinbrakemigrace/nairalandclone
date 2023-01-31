@@ -1,0 +1,87 @@
+// var a = 4;
+// var b = 5;
+// var c = a + b;
+
+// alert(c)
+
+// var girl = 3;
+// var boy = 6;
+// var others = 8;
+// var total = girl + boy + others;
+
+// alert(total);
+
+// var a = 3;
+// var b = 5;
+//var c = Math.pow(a, b) this means a raise to power b
+
+// alert(c)
+
+// var r = 56;
+// var c = (Math.PI * r**2).toExponential(2)
+
+// console.log(c)
+
+// var t = 130;
+// var f2c = Math.floor(5/9 * t - 32)
+
+// console.log(f2c)
+
+// var person1 = {
+//     firstname: "Grace",
+//     lastname: "Ofubu",
+//     savings: 2000
+// }
+
+// person1.savings= person1.savings+1000
+
+// alert(person1.savings)
+
+// let a = 1;
+
+// alert(a)
+
+var animal = {
+    name: "dog",
+    sound: "barks",
+    breed: "German Shepherd",
+    age: 2
+}
+
+// above is an example of object data
+
+animal.age++ ; //you use dot to access object data
+
+alert(animal.age)
+
+// ARRAY. you access array by index. the first item in an array is always on index 
+0 while the last item is total number on the item minus 1
+//array method is an inbuilt method of js that help manipulate data stored in an array.
+var listarray = [1,2,3,true, false, "prince", "oha"] 
+
+//console.log(listarray[5])
+
+var listarray = [
+    {firstname:"Grace", country: "Nigeria"},
+    {firstname:"Tayo", country: "Senagal"},
+    {firstname: "Doreen", country: "USA"},
+    {firstname: "Tina", country: "France"}
+]
+// above is an array of objects
+
+// listarray.pop() removes the last item in the listarray
+
+// listarray.push({firstname:"sade" , country: "Saudi arabia"}) adds to the end of the list item.
+
+var newarray = listarray.slice(0 , 3) //cutting out a portion of the array. if you use 0,2 it prints out the remaining and minus out the last one
+
+console.log(newarray)
+
+//another example with simple data
+
+let array2 = [1,2,3]
+let array3 = ["a", true, false]
+
+let joinedarray = array2.concat(array3)
+console.log(joinedarray)
+console.log(array2.toString()) //to convert to string

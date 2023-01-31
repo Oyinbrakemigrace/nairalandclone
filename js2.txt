@@ -1,0 +1,87 @@
+//let arg = []
+//when building a calculator, using the push method is important.
+//arg.push(3)
+//arg.push("+")
+//arg.push(4)
+
+//console.log(arg.join('*')) - join works together with the console.log
+//when building a calculator in order to make the comma in the console disappear, you join with an empty quote - join("")
+//eval() evaluates
+
+//console.log(eval(arg.join(""))) //you can also input the operator you want to use inside the empty quote.
+
+// let arg = [ 3, 4, true, false, "hello"]
+
+// var check = arg.includes("hell") - the output will be false because array arg does not contain hell
+
+//a=4 -assigning
+//a==4 -comparison
+//a=== - compares the values as well as the data type
+
+// console.log(check)
+
+//The find() method returns the first element in the provided array that satisfies the provided testing function. If no values satisfy the testing function, undefined is returned.
+
+// () => {} - call back (after looking through a specific element do this....look through and look for an element)
+
+let arg =[ 3, 4, true, false, "hello"]
+
+//var check = arg.find ((data)=> data === 3)
+
+//console.log(check)
+
+//the rule of find and forEach is that you must specify a call back
+
+//arg.forEach((a)=>console.log(a)) //forEach means to print out each of the item
+
+//arg[0]=5 //to change an item inside an array
+//console.log(arg)
+
+var listarray = [ "dog", "cat", 24, 54 , false]
+
+listarray.push("lion")
+
+//console.log(listarray)
+
+var check = listarray.includes ("good morning")
+
+//console.log(check)
+
+//LOOP 
+
+//syntax
+//for(){} you initialize, condition and increment or decrement
+
+for(var a = 0; a<= 10 ; a++){
+    //console.log(a)
+}
+
+//assignment in note
+
+var data = []
+
+// for(var a=1; a<=20; a+=2){
+//     data.push(a)
+// }
+
+// console.log(eval(data.join("+")))
+
+
+//while(){} -- for while loop you declare only the condition in the parenthesis. the initializattion comes before the while loop then you increment after pushing
+var b = 0;
+while(b < 20){
+    data.push(b)
+    b+=2
+}
+//console.log(eval(data.join("+")))
+
+
+// do while loop -- initialization, increment, condition  
+
+var c = 0;
+do{
+    data.push(c);
+    c+=2
+} while(c < 20)
+
+console.log(eval(data.join("+")))

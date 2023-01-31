@@ -1,0 +1,139 @@
+/* h1{
+    color: rgb(150, 100, 190);
+    background-color: aqua;
+    font-size:50px;
+    position: relative;
+    top:10vh;
+    z-index: 1;
+    }
+
+    button{
+        position: relative;
+        z-index: 3;
+    } */
+
+/* div{
+        background-color: red;
+        width: 4rem;
+        height:3rem;
+        overflow: auto;
+    } */
+
+.div {
+    background: linear-gradient(180deg, purple, gold), url(./image/landscape.jpg);
+    /* background-image: url(./image/landscape.jpg); */
+    width: 100%;
+    min-height: 70vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-blend-mode: hard-light;
+
+}
+
+.firstname {
+    color: brown;
+}
+.lastname{
+    color: blueviolet;
+}
+.hi{
+    background-color: yellow;
+}
+
+.parent h1:hover{
+background-color: beige;
+color: brown;
+}
+.parent h4:active{
+    background-color: pink;
+}
+.parent h1{
+    font-size: 50px;
+}
+
+
+
+
+
+
+Nairaland, display and flexbox class (css)
+
+/* div{
+    background-color: #F6F6EC;
+    width: 60rem;
+    height: 11rem;
+    text-align:center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: top 1px;
+    margin-left:13rem;
+    border-radius: .5rem;
+    box-shadow: 1px 1px 4px #000;
+} */
+
+    .first{
+        color: #175616;
+        font-weight:bolder;
+        font-size:xx-large;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+
+    .reg{
+        color: #182D8C;
+    }
+
+    .box{
+        border-radius: 10px;
+        height: 20px;
+        border-width: 1px;
+        border-color: gray
+    }
+
+    button{
+        background-color: #fff;
+        padding: 4px;
+        border-radius: 20px;
+        width: 4rem;
+        border-width: 1px;
+        border-color: gray;
+    }
+
+    a{
+        text-decoration:none;
+        font-weight: bold;
+        }
+
+        .flex{
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+            align-items: flex-end;
+        }
+
+        ul{
+            display:flex;
+            flex-direction: row;
+            justify-content: space-evenly;
+            align-items: flex-start;
+            list-style-type: none;}
+
+            .seconddiv{
+                display: flex;
+                flex-direction: row;
+                justify-content: space-evenly;
+                align-items: center;
+            }
+
+            body{
+                background-color: brown;
+            }
+
+            @media(max-width: 576px){
+                body{
+                    background-color: green;
+                    }
+            }
+                    /* anything more than 576px, the screen should be brown 
+                    min-width: 400 means 400 upwards*
+                    max-width: 800 means 800 downwards/
+                

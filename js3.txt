@@ -1,0 +1,208 @@
+// // // var a=5
+
+// // // console.log(a==="5")
+
+// // //IF Statement
+
+// // //SINGLE IF CONDITION
+// // var a = 4;
+// // if(a == 4){
+// //     //console.log("correct" +" "+ a) //string literal will be console.log(`correct ${a}`)
+// // }
+
+// // //IF ELSE CONDITION - checks either true or false
+
+// // var a = 4
+
+// // if(a===4){
+// //     //console.log(`correct ${a}`)
+// // } else{
+// //     //console.log("check data type")
+// // }
+
+// // //another example
+
+// // var food = "eba" //the restaurant has eba unknown to you
+
+// // if (food==="rice"){  //and you want rice
+// //     console.log(`buy me ${food}`)
+// // }
+// //else{
+// //     //console.log("return my money")
+// // }
+
+//  //NESTED IF CONDITION
+
+// // var food = "eba"
+
+// // if(food==="rice"){
+// //     console.log(`buy me ${food}`)
+// // }
+// // else if(food ==="beans"){
+// //     console.log(`buy me ${food}`)
+// // }
+// // else if(food==="pounded yam"){
+// //     console.log(`buy me ${food}`)
+// // }
+// // else{
+// //     console.log("return my money")
+// // }
+
+
+// // //LOGICAL OPERATORS - and (rep as &&) , or, not, <, >
+
+// // /*
+// // >= 75 = EXCELLENT
+// // >=60 and <=74 = "very good"
+// // >=50 and <= 59 = "good"
+// // >=40 and <= 49 = "pass"
+// // < 40 = "poor"
+// // */
+
+//example using and operator (note that for and operator, both conditions must be met.) 
+
+// // var score = 75
+
+// // if(score >= 75){
+// //     console.log("Excellent")
+// // }
+// // else if( score >= 60 && score <= 74){
+// //     console.log("Very good")
+// // }
+// // else if(score >= 50 && score <=59){
+// //     console.log("Good")
+// // }
+// // else if( score >=40 && score <=49){
+// //     console.log("Pass")
+// // }
+// // else if(score <=40){
+// //     console.log("poor")
+// // }
+// // else{
+// //     console.log("failed")
+// // }
+
+// // //another example using and operator
+
+// // var x = 8;
+// // var y = 5;
+
+// // if(x===8 && y===5){
+// //     console.log("correct")
+// // }
+// // else{
+// //     console.log("Data did not match")
+// // }
+
+// // //OR OPERATOR (||) we use the pipe sign - It means one of the conditions is met
+
+// // var x = 8;
+// // var y = 6;
+
+// // if(x===8 || y===5){
+// //     console.log("correct")
+// // }
+// // else{
+// //     console.log("Data did not match")
+// // }
+
+// // //NOT OPERATOR (!)- negation(it means whatever is there, change it to the opposite)
+
+// // var c = !true
+// // //console.log(c)
+
+// // //another example
+
+// // var role = "admin"
+// // if (role != "admin"){
+// //     //console.log("only admin can perform this operation")
+// // }
+// // else{
+// //     //console.log("no way")
+// // }
+
+
+// //SWITCH Statement
+
+// // var day = 1;
+
+// // switch(day){
+// //     case 1:
+// //         console.log("today is monday")
+// //         break;
+// //     case 2:
+// //         console.log("today is tuesday")
+// //         break;
+// //     case 3:
+// //         console.log("today is wednesday")
+// //         break;
+// //     case 4:
+// //         console.log("today is thursday")
+// //         break;
+// //     case 5:
+// //         console.log("today is friday")
+// //         break;
+// //     case 6:
+// //         console.log("today is saturday")
+// //         break;
+// //     case 7:
+// //         console.log("today is sunday")
+// //         break;
+// //     default:
+// //         console.log("i don't think that day exists")
+// //}
+
+// //FUNCTIONS - you must invoke function in order for it to work
+
+// function calculation(){
+//     console.log(56)
+// }
+// calculation() //this is invoking, calling the name of the function after everything
+
+// //another way
+
+// function calculation(){
+//     return (2 + 2)
+// }
+// //console.log(calculation())
+
+// //parameters
+
+// //named parameter --you must specify the name
+
+// function studentInfo(name, score){ /*this means when calling function studentInfo you must 
+// look for two parameters , name and score and while invoking, you must include the assigned values of the paramters when invoking at the end.
+//
+// */
+// console.log(`Goodday Miss ${name}, your result is ${score}%`)
+// }
+
+// studentInfo("Grace" , 80)
+// studentInfo("Lily" , 85)
+
+// //default parameter--if they are not assigned when invoking, they will fall back to the default values assigned when calling the function.
+
+// function studentInfo(name = "sola", score= 40){
+
+//     console.log(`Goodday Miss ${name}, your result is ${score}%`)
+// }
+// studentInfo()
+// studentInfo("fola" , 50)
+
+// //using function to find the area of a circle given r=2 and r=3
+
+// function AOC(r){
+//     console.log(Math.PI * (r * r))
+// }
+
+// //AOC(2)
+//AOC(3)
+
+ASSIGNMENT
+
+function celcius(f){
+    console.log(f-32 * 0.56)
+}
+celcius(35)
+celcius(100)
+

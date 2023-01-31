@@ -1,0 +1,154 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+/* Always put these lines of codes in css when desiging a website */
+/* .links p means go to my html elements that has class name links and has p as a child element */
+/* pseudo class is used to differentiate class with multiple same elements. eg .links p:nth-child(2)
+Making pseudo class more specific eg .links p:nth-child(3) a {}, this means class link with all 'a' tag 
+in the 3rd p child*/
+/* margin auto only works left and right */
+
+/* Below is a variable, it helps to store data. Always represent variables with --*/
+
+:root{
+    --green:#2E652B;
+    --second:#F6F6EC;
+    --third: #E8ECE0;
+}
+
+.logo, .welcome{
+    text-align: center;
+    margin-top: .5rem;
+}
+
+.logo img{
+    width: 50%;   /* this means the logo img should not go out of its box in order to maintain responsiveness */
+    margin: auto;
+}
+
+.welcome p{
+    padding: .5rem 0;
+}
+
+.search{
+    display: flex;
+    width: 50%;
+    margin: auto;
+    
+}
+
+.search input{
+    width: 100%;
+    border-radius: 1rem;
+    padding: .3rem;
+}
+
+.search button{
+    border-radius: 1rem;
+    width: 20%;
+    padding: .2rem;
+    border-style: solid;
+    border-color: #000
+}
+
+header{
+    width: 75%;
+    margin: auto;
+}
+
+.top{
+    background-color: var(--second);
+    border-radius: 1rem;
+    padding: .5rem 0;
+    box-shadow: 0 0 2px #000;
+    margin-top: .5rem;
+}
+
+.links{
+    background-color: var(--second);
+    border-radius: 1rem;
+    box-shadow: 0 0 2px #000;
+    margin-top: .5rem;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+
+.links p:first-child{
+    background-color: var(--third);
+    border-radius: 1rem 1rem 0rem 0rem;
+    padding:.5rem 0;
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: bolder;
+}
+
+.links p:nth-child(2){
+    background-color: var(--second);
+    padding:.5rem 0;
+    font-weight: bold;
+}
+
+.links p:nth-child(2) a {
+    margin:1rem .2rem;
+}
+
+.links p:nth-child(3){
+    background-color: var(--third);
+    padding:.5rem 0;
+    font-weight: bold;
+}
+
+.links p:nth-child(3) a {
+    margin: 1rem .2rem;
+}
+
+.links p:nth-child(4){
+    background-color: var(--second);
+    padding:.5rem 0;
+    border-radius: 0rem 0rem 1rem 1rem;
+    font-weight: bold;
+}
+
+.links p:nth-child(4) a {
+    margin: 1rem .2rem;
+}
+
+/* for the main part with images */
+main{
+    width: 75%;
+    margin: 1rem auto;
+}
+
+.advert{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.advert img{
+    width: 30%;
+    box-shadow: 0 0 2px #111;
+    border-radius: .4rem;
+}
+
+/* for the hovering part */
+a{
+    text-decoration: none;
+}
+
+a:hover{
+    text-decoration: underline;
+}
+
+@media(max-width:768px){
+    .search{
+        width: 90% !important;
+        margin: auto;
+    }
+
+    .advert img{
+        width:75%;
+        margin: 1rem auto;
+    }
+}
